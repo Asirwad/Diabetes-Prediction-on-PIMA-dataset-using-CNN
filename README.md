@@ -28,32 +28,36 @@ This project predicts whether a person has diabetes based on health-related feat
 
 ## Dataset
 
-The dataset is the Pima Indian diabetes dataset, containing features like pregnancies, glucose, blood pressure, etc.
+The dataset is the Pima Indian diabetes , containing features like pregnancies, glucose, blood pressure, etc.
 
-## Model Details
-
-The CNN model is built using TensorFlow and Keras, with convolutional layers for feature extraction.
+## Model architecture
+<div align="center">
+  <table>
+    <tr>
+      <td><b><i>CNN Model</i></b></td>
+    </tr>
+    <tr>
+      <td>
+        <p align="center">
+          <img src="app/models/model diagram.svg" alt="alt" width="100">
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## File Structure
 
-- `train_model.py`: Script to train the CNN model.
+- `train.py`: Script to train the CNN model.
 - `predict.py`: Script to make predictions for individual cases.
-- `diabetes_model.h5`: Saved trained model.
+- `model.h5`: Saved trained model.
 - `scaler.joblib`: Saved StandardScaler for data preprocessing.
 
 ## Dependencies
 
 - Python 3.x
-- TensorFlow
+- [TensorFlow](https://www.tensorflow.org/)
 - Keras
 - scikit-learn
 - pandas
 - numpy
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
