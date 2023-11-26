@@ -1,4 +1,4 @@
-# Diabetes Prediction Project
+# Diabetes-Prediction-on-PIMA-dataset-using-CNN
 
 ## Overview
 
@@ -8,7 +8,7 @@ This project predicts whether a person has diabetes based on health-related feat
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/diabetes-prediction.git
+    git clone https://github.com/Asirwad/Diabetes-Prediction-on-PIMA-dataset-using-CNN.git
     ```
 
 2. **Install dependencies:**
@@ -18,7 +18,7 @@ This project predicts whether a person has diabetes based on health-related feat
 
 3. **Train the model:**
     ```bash
-    python train_model.py
+    python train.py
     ```
 
 4. **Make predictions:**
